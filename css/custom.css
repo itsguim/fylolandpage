@@ -9,6 +9,7 @@
     
     --neutral--lgishblue: hsl(240, 75%, 98%);
     --neutral--lgray: hsl(0, 0%, 75%);
+    --invalidcolor--: rgb(233, 7, 60);
 
     --ctafont: "Raleway", sans-serif;
 }
@@ -127,9 +128,20 @@ section#upper .emailbox{
     border-radius: 3px;
 }
 
-section#upper .emailbox:focus{
-    border: 1px solid rgba(247, 8, 64, 0.814);
+section#upper .error-message{
+    color: var(--invalidcolor--);
+    font-size: 1.2rem;
+    display: none;
 }
+
+section#upper .emailbox:not(:focus):not(:placeholder-shown):invalid{ /* Invalid input styling */
+    color: var(--invalidcolor--);
+    border: 1px solid var(--invalidcolor--);
+}
+
+section#upper .emailbox:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
+    display: block;
+} 
 
 section#upper .btn{
     font-family: var(--ctafont);
