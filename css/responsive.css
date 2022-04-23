@@ -1,0 +1,127 @@
+@media screen and (max-width: 1439px){
+
+    section .illustration{
+        max-width: 550px;
+    }
+
+    section#upper form{
+        max-width: 475px;
+    }
+
+    .depoiment-box{
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    header .container{
+        margin-top: 2rem;
+        max-width: 1300px;
+    }
+
+    header .logo img{
+        width: 15rem;
+    }
+
+    nav ul{
+        gap: 7rem;
+    }
+
+    nav ul li a{
+        font-size: 1.8rem;
+    }
+    /*1st section upper*/
+    section#upper, section#lower{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 7rem auto;
+        width: 90%;
+        max-width: 1300px;
+        align-items: center;
+    }
+
+    section#upper .container:nth-child(2){ /*textcontent*/
+        width: auto;
+        align-items: flex-start;
+    }
+
+    section#upper h1, section#upper p{
+        text-align: start;
+    }
+
+    section#upper h1{
+        font-size: 3.8rem;
+    }
+
+    section#upper p{
+        font-size: 1.6rem;
+    }
+
+    section .illustration{
+        width: 680px;
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+
+    section#upper form{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        height: 6rem;
+    }
+
+    section form .form-format{
+        width: 60%;
+    }
+
+    section form .form-formatbtn{
+        width: auto;
+    }
+
+    section#upper .emailbox{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    section#upper .btn{
+        margin-top: 0;
+        width: 36%;
+        font-size: 1.6rem;
+        max-height: 45px;
+    }
+    /*2nd section lower*/
+    section#lower{
+        margin-top: 20em;
+    }
+
+    section#lower .container:nth-child(2){ /*textcontent*/
+        display: flex;
+        align-items: flex-start;
+    }
+
+    section#lower h3{
+        font-size: 3.6rem;
+    }
+
+    section#lower .p-lower{
+        color: var(--primary--vdblue);
+        font-size: 1.6rem;
+        width: 85%;
+    }
+
+    section#lower .depoiment-box{
+        width: 55%;
+    }
+
+    .seefylo-link a{
+        font-size: 1.6rem;
+    }
+
+    .depoiment-box .testimonial{
+        font-size: 1.3rem;
+    }
+
+    .attribution_text span{
+        font-size: 1rem;
+    }
+}

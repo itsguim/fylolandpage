@@ -91,7 +91,6 @@ section .container{ /* Reutilizado para todos os containers */
 
 section .illustration{
     width: 100%;
-    max-width: 550px;
     margin-bottom: 4rem;
 }
 
@@ -116,8 +115,12 @@ section form{
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 475px;
     margin-top: 2.5rem;
+}
+
+section form .form-format{
+    display: flex;
+    flex-direction: column;
 }
 
 section .emailbox{
@@ -174,7 +177,7 @@ section#lower h3{
     color: var(--primary--vdblue);
 }
 
-section#lower .container:nth-child(2) p{
+section#lower .p-lower{
     color: var(--primary--desblue);
     font-size: 1.5rem;
     margin-top: 3rem;
@@ -204,18 +207,19 @@ section#lower .container:nth-child(2) p{
 
 /* ---- DEPOIMENT Structure */
 
-section#lower .container:nth-child(3){
+section#lower .depoiment-box{
     box-shadow: 0px 0px 5px 2px rgb(236, 233, 233);
     margin-top: 5rem;
-    width: 80%;
+    width: 90%;
+    padding: 2rem 1rem 2rem;
 }
 
-.depoiment-box {            
-    width: 80%;
-    padding: 2rem 0 2rem;
+.depoiment-textbox{
+    width: 90%;
+    margin: 0 auto;
 }
 
-.testimonial{
+.depoiment-box .testimonial{
     font-size: 1.1rem;
     color: var(--primary--vdblue);
     line-height: 2rem;
@@ -241,8 +245,8 @@ section#lower .container:nth-child(3){
 
 .attribution_text h4{
     font-weight: bold;
-    font-size: 1.1rem;
-    letter-spacing: .7px;
+    font-size: 1.2rem;
+    letter-spacing: .3px;
 }
 
 /*SECTION3 --- Subscribing */
@@ -268,8 +272,8 @@ section#subscription p{
     text-align: center;
     font-size: 1.4rem;
     line-height: 2.3rem;
-    width: 86%;
-    margin-top: 1.5rem;
+    width: 85%;
+    margin: 1.5rem auto;
 }
 
 section#subscription form{
