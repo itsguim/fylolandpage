@@ -145,6 +145,7 @@
     section#subscription p{
         font-size: 1.6rem;
         width: 85%;
+        margin-left: 0;
     }
 
     section#subscription form{
@@ -174,6 +175,7 @@
     /*    FOOTER    */
     .footer-container{
         padding-top: 7rem;
+        width: 90%;
         max-width: 1300px;
     }
     
