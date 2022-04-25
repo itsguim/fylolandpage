@@ -50,7 +50,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Responsive layout approach
+- Responsive layout approach.
 
 ### What I learned
 Learned to do a form validation with a custom message without using JS (server-side validation)
