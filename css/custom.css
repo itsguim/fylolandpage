@@ -170,9 +170,10 @@ section#lower{
     margin-top: 15rem;
 }
 
-section#lower h3{
+section#lower h2{
     font-family: var(--ctafont);
     color: var(--primary--vdblue);
+    font-size: 1.8rem;
 }
 
 section#lower .p-lower{
