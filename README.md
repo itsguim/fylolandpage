@@ -10,3 +10,6 @@
 
 ### Day 3
 - Started the desktop 1440x layout and did some ajustments in the HTML to style properly with the media queries.
+
+###Day 4
+- Finished desktop layout.
