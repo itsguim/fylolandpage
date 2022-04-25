@@ -1,5 +1,4 @@
 @media screen and (max-width: 1439px){
-
     section .illustration{
         max-width: 550px;
     }
@@ -11,12 +10,16 @@
     .depoiment-box{
         max-width: 800px;
     }
+
+    section#subscription form{
+        max-width: 475px;
+        margin: 0 auto
+    }
 }
 
 @media screen and (min-width: 1440px){
     header .container{
         margin-top: 2rem;
-        max-width: 1300px;
     }
 
     header .logo img{
@@ -30,7 +33,7 @@
     nav ul li a{
         font-size: 1.8rem;
     }
-    /*1st section upper*/
+    /*              upper  section          */
     section#upper, section#lower{
         display: flex;
         flex-direction: row-reverse;
@@ -40,7 +43,7 @@
         align-items: center;
     }
 
-    section#upper .container:nth-child(2){ /*textcontent*/
+    section#upper .container:nth-child(2){ /*textcontent of the section*/
         width: auto;
         align-items: flex-start;
     }
@@ -67,20 +70,15 @@
         flex-direction: row;
         justify-content: space-between;
         width: 85%;
-        height: 6rem;
+        height: 6rem; /* to give the .error-message space to show up */
     }
 
     section form .form-format{
         width: 60%;
     }
 
-    section form .form-formatbtn{
-        width: auto;
-    }
-
     section#upper .emailbox{
-        width: 100%;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     section#upper .btn{
@@ -89,12 +87,12 @@
         font-size: 1.6rem;
         max-height: 45px;
     }
-    /*2nd section lower*/
+    /*            lower  section           */
     section#lower{
         margin-top: 20em;
     }
 
-    section#lower .container:nth-child(2){ /*textcontent*/
+    section#lower .container:nth-child(2){ /*textcontent of the section*/
         display: flex;
         align-items: flex-start;
     }
@@ -121,7 +119,79 @@
         font-size: 1.3rem;
     }
 
-    .attribution_text span{
+    .depoiment-box .attribution_text span{
         font-size: 1rem;
+    }
+    /*          subcribe     section       */
+    section#subscription .sub_contentarea{
+        flex-direction: row;
+        max-width: 1300px;
+    }
+
+    section#subscription .subscription_text{
+        padding-bottom: 5rem;
+        width: 65%;
+    }
+
+    section#subscription h3,
+    section#subscription p{
+        text-align: left;
+    }
+
+    section#subscription h3{
+        font-size: 2.8rem;
+    }
+
+    section#subscription p{
+        font-size: 1.6rem;
+        width: 85%;
+    }
+
+    section#subscription form{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    section#subscription .form-position{
+        width: 90%;
+        justify-content: center;
+        height: 100%;
+        padding-top: 2rem;
+    }
+
+    section#subscription .emailbox{
+        width: 80%;
+        font-size: 1.4rem;
+        padding-top: 1rem;
+    }
+    
+    section#subscription .btn{
+        width: 30%;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-top: 1rem;
+    }
+    /*    FOOTER    */
+    .footer-container{
+        padding-top: 7rem;
+        max-width: 1300px;
+    }
+    
+    .footer-logo{
+        margin-bottom: 1rem;
+    }
+    
+    .footer-tabs{
+        flex-direction: row;
+        gap: 20rem;
+        padding-bottom: 10rem;
+    }
+
+    .footer-info{
+        margin-top: .5rem;
+    }
+
+    .icon{
+        width: 20px;
     }
 }
