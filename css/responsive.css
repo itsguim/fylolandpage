@@ -126,6 +126,7 @@
     section#subscription .sub_contentarea{
         flex-direction: row;
         max-width: 1300px;
+        padding: 3rem 0 3rem;
     }
 
     section#subscription .subscription_text{

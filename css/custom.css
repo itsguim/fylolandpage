@@ -93,6 +93,7 @@ section .illustration{
 
 section#upper h1{
     color: var(--primary--vdblue);
+    font-family: var(--ctafont);
     font-weight: 700;
     width: 100%;
     text-align: center;
